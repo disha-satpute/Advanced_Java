@@ -10,19 +10,12 @@ class grid extends Frame
   {
 	  add (new Button(""+i));
   }
-  /*JLabel  l1 = new JLabel("enter your name :");
-  JTextField t1 = new JTextField(10);
-  JLabel  l2 = new JLabel("enter your Address:");
-  JTextArea t2 = new JTextArea(2,10);
-  JLabel  l3 = new JLabel("Choose the Language:");
-  JComboBox c1 = new JComboBox();*/
-  }
 public static void main(String args[])
 {
   grid s1 = new grid();
   s1.setTitle("GridLayoutDemo");
   s1.setSize(500,500);
   s1.setVisible(true);
-  
+
 }
 }
