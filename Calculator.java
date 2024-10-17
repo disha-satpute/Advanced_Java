@@ -1,7 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
        public class Calculator extends JFrame implements ActionListener {
+
        private JPanel panel;
        private JTextField textField;
        private JButton[] buttons;
@@ -9,6 +11,7 @@ import javax.swing.*;
        private double currentResult = 0;
        private String currentOperator = "";
        private boolean startNewNumber = true;
+
        public Calculator() {
              super("Calculator");
              setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
